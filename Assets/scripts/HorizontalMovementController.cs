@@ -16,6 +16,8 @@ public class HorizontalMovementController : MonoBehaviour
     private Rigidbody2D rb;
     private float moveInput;
 
+    public float CurrentInput => moveInput;
+
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
